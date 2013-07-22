@@ -1,7 +1,7 @@
 {
   "name": "irspy",
   "description": "spying (watcher) script that recompiles a single less file to css based upon any less file change",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "watch": "0.5.1",
     "recess": "1.1.8",
