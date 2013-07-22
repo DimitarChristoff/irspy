@@ -1,0 +1,14 @@
+{
+	"compress": true,
+
+	"paths": {
+		"src": "dist/less",
+		"out": "dist/css",
+		"lessMain": "app.less",
+		"cssMain": "app-min.css"
+	},
+
+	"notify": {
+		"enabled": true
+	}
+}

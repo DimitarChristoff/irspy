@@ -1,7 +1,7 @@
 {
   "name": "irspy",
-  "description": "watcher script that recompiles less to css",
-  "version": "0.0.3",
+  "description": "spying (watcher) script that recompiles a single less file to css based upon any less file change",
+  "version": "0.0.1",
   "dependencies": {
     "watch": "0.5.1",
     "recess": "1.1.8",
@@ -10,8 +10,8 @@
     "primish": "0.1.x",
     "growl": "1.7.x"
   },
-  "main": "index.js",
-  "respository": {
+  "main": "lib/irspy.js",
+  "repository": {
     "type": "git",
     "url": "git@github.com:DimitarChristoff/irspy.git"
   }
