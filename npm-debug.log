@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/dchristoff/nvm/v0.8.25/bin/node',
+1 verbose cli   '/Users/dchristoff/nvm/v0.8.25/bin/npm',
+1 verbose cli   'version',
+1 verbose cli   'patch' ]
+2 info using npm@1.2.30
+3 info using node@v0.8.25
+4 error Error: Git working directory not clean.
+4 error D  lib/clint.js
+4 error M lib/irspy.js
+4 error M package.json
+4 error     at /Users/dchristoff/nvm/v0.8.25/lib/node_modules/npm/lib/version.js:97:35
+4 error     at ChildProcess.exithandler (child_process.js:546:7)
+4 error     at ChildProcess.EventEmitter.emit (events.js:99:17)
+4 error     at maybeClose (child_process.js:646:16)
+4 error     at Socket.ChildProcess.spawn.stdin (child_process.js:823:11)
+4 error     at Socket.EventEmitter.emit (events.js:96:17)
+4 error     at Socket._destroy.destroyed (net.js:358:10)
+4 error     at process.startup.processNextTick.process._tickCallback (node.js:245:9)
+5 error If you need help, you may report this log at:
+5 error     <http://github.com/isaacs/npm/issues>
+5 error or email it to:
+5 error     <npm-@googlegroups.com>
+6 error System Darwin 11.4.0
+7 error command "/Users/dchristoff/nvm/v0.8.25/bin/node" "/Users/dchristoff/nvm/v0.8.25/bin/npm" "version" "patch"
+8 error cwd /Users/dchristoff/projects/irspy
+9 error node -v v0.8.25
+10 error npm -v 1.2.30
+11 verbose exit [ 1, true ]

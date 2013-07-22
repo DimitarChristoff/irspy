@@ -8,7 +8,8 @@
     "clint": "0.0.6",
     "colors": "0.6.x",
     "primish": "0.1.x",
-    "growl": "1.7.x"
+    "growl": "1.7.x",
+    "clintish": "0.0.2"
   },
   "main": "lib/irspy.js",
   "repository": {
